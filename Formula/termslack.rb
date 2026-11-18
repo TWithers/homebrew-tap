@@ -1,30 +1,30 @@
 class Termslack < Formula
   desc "Terminal Slack client: read and write in your channels and DMs from the keyboard"
   homepage "https://github.com/TWithers/termslack"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/TWithers/termslack/releases/download/v0.2.1/termslack-0.2.1-darwin-arm64.tar.gz"
-      sha256 "bdac9c266054365364d30a6a46499639d4985b138db454a8b8a82c6f302a71a7"
+      url "https://github.com/TWithers/termslack/releases/download/v0.3.0/termslack-0.3.0-darwin-arm64.tar.gz"
+      sha256 "ab8fac20e4822939e48d43e68713451336def3ff70592b7ec0f0f5230c527a26"
     end
 
     on_intel do
-      url "https://github.com/TWithers/termslack/releases/download/v0.2.1/termslack-0.2.1-darwin-x64.tar.gz"
-      sha256 "9c0d0f95d572beb4f8ae420e89ef6e004ba9e659396202bf4c826da08596f7b7"
+      url "https://github.com/TWithers/termslack/releases/download/v0.3.0/termslack-0.3.0-darwin-x64.tar.gz"
+      sha256 "dca50bf82801ce9c05775f6ea48beb3168697d058af3aff586c530806b7acd9d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TWithers/termslack/releases/download/v0.2.1/termslack-0.2.1-linux-arm64.tar.gz"
-      sha256 "e18567cea39e8348889fa37b21ea9eaf7414928ffee8e6ea995bde53f272c096"
+      url "https://github.com/TWithers/termslack/releases/download/v0.3.0/termslack-0.3.0-linux-arm64.tar.gz"
+      sha256 "34fb5f9cdbaa8fe2be438760758d3c8ea7b55a2f4ad06712411f885485f99ac1"
     end
 
     on_intel do
-      url "https://github.com/TWithers/termslack/releases/download/v0.2.1/termslack-0.2.1-linux-x64.tar.gz"
-      sha256 "fa4f651adf2ddb48f1e0eb891a1e3ae34e5771b024fc7087e38199e42b78cce7"
+      url "https://github.com/TWithers/termslack/releases/download/v0.3.0/termslack-0.3.0-linux-x64.tar.gz"
+      sha256 "d11a6f325d5ed8d325fb15dbb3b9d80dce1233ee0044af1c85c613be795bd4a5"
     end
   end
 
